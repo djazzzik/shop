@@ -1,0 +1,170 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Gidole&display=swap');*/
+* {
+    margin: 0;
+    /* Верхний и нижний отступы, левый и правый */
+    padding: 0;
+    /* Верхний и нижний внутренние отступы, левый и правый  */
+    margin-bottom: 0;
+    /* Добавляет отступ снизу каждого абзаца */
+}
+
+/* Стили для телефонов*/
+@media (max-width: 600px) {
+    body {
+        background-color: rgb(209, 222, 226);
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+/* Стили для планшетов */
+@media (min-width: 601px) and (max-width: 1200px) {
+    body {
+        background-color: rgb(209, 222, 226);
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+}
+nav {
+    background-color: rgb(120, 189, 212);
+    overflow: hidden;
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu li {
+    margin: 0;
+}
+
+.nav-menu a {
+    display: block;
+    color: rgb(0, 0, 139);
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    background-color: rgba(153, 121, 218, 0.712);
+}
+
+.content {
+    padding: 20px;
+}
+
+
+
+body {
+    background-color: rgb(209, 222, 226);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Изображения будут масштабироваться автоматически*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(136, 136, 206);
+    line-height: 2;
+    /* Устанавливает высоту строки в ___ раз больше размера шрифта */
+}
+
+a {
+    color: rgb(75, 0, 130);
+    /* Основной цвет ссылки */
+    text-decoration-line: none;
+    /* Подчеркивание ссылки */
+}
+
+a:hover {
+    color: rgb(0, 0, 139);
+    /* Цвет ссылки при наведении */
+    text-decoration-line: underline;
+}
+
+p {
+    text-align: center;
+    line-height: 2;
+}
+
+y {
+    position: absolute;
+    left: 0;
+    margin: 50px 10pc;
+}
+
+l {
+    position: absolute;
+    left: 0;
+    margin: 0px 10pc;
+}
+
+q {
+    position: absolute;
+    right: 0;
+    margin: 50px 10pc;
+
+}
+
+table {
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    /*Внешние границы*/
+}
+
+th {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    /*Границы ячеек первого ряда таблицы*/
+}
+
+td {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    /*Границы ячеек тела таблицы*/
+}
+
+g {
+    color: rgb(96, 185, 6);
+}
+
+r {
+    color: red;
+}
+
+c {
+    color: rgb(30, 144, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+w {
+    color: grey;
+}
+
+.center-cell {
+    text-align: center;
+    width: 100%;
+}
+
+.full-width-text {
+    text-align: center;
+    width: 100%;
+    font-size: 1em;
+}
