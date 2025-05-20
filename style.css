@@ -15,8 +15,9 @@
     }
 
     h1 {
-        font-size: 24px;
+        font: 20px Oswald;
     }
+
 }
 /* Стили для планшетов */
 @media (min-width: 601px) and (max-width: 1200px) {
@@ -25,7 +26,7 @@
     }
 
     h1 {
-        font-size: 32px;
+        font: 32px Oswald;
     }
 }
 nav {
@@ -59,14 +60,11 @@ nav {
 }
 
 .content {
-    padding: 20px;
+    padding: 15pt;
 }
-
-
 
 body {
     background-color: rgb(209, 222, 226);
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*Изображения будут масштабироваться автоматически*/
@@ -79,6 +77,7 @@ h1 {
     text-align: center;
     color: rgb(136, 136, 206);
     line-height: 2;
+    font: 32pt Oswald;
     /* Устанавливает высоту строки в ___ раз больше размера шрифта */
 }
 
@@ -87,6 +86,7 @@ a {
     /* Основной цвет ссылки */
     text-decoration-line: none;
     /* Подчеркивание ссылки */
+    font: 15pt Gidole;
 }
 
 a:hover {
@@ -97,19 +97,14 @@ a:hover {
 
 p {
     text-align: center;
-    line-height: 2;
+    line-height: 1;
+    font: 15pt Gidole;
 }
 
 y {
     position: absolute;
     left: 0;
     margin: 50px 10pc;
-}
-
-l {
-    position: absolute;
-    left: 0;
-    margin: 0px 10pc;
 }
 
 q {
@@ -123,20 +118,31 @@ table {
     margin: auto;
     text-align: center;
     border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 2px solid rgb(0, 0, 0);
     /*Внешние границы*/
+}
+.gray-headers th {
+    text-align: center;
+    background-color:  rgb(182, 176, 176); /* Цвет границы ячеек */
 }
 
 th {
     text-align: center;
     background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    font: 15pt Gidole;
+    padding: 0pt 5pt;
     /*Границы ячеек первого ряда таблицы*/
 }
 
 td {
     text-align: center;
     background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    font: 15pt Gidole;
+    padding: 0pt 5pt;
     /*Границы ячеек тела таблицы*/
 }
 
@@ -150,8 +156,8 @@ r {
 
 c {
     color: rgb(30, 144, 255);
-    font-family: 'Times New Roman', Times, serif;
     font-size: large;
+    font: 15pt Gidole;
 }
 
 w {
